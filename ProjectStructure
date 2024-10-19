@@ -1,0 +1,51 @@
+/library-management-system
+
+├── src
+
+│   ├── main
+
+│   │   ├── java
+
+│   │   │   └── com
+
+│   │   │       └── library
+
+│   │   │           ├── LibraryManagementSystemApplication.java  # Main application entry point
+
+│   │   │           ├── controller                              # Package for controllers
+
+│   │   │           │   ├── UserController.java                # User-related endpoints
+
+│   │   │           │   └── BookController.java                # Book-related endpoints
+
+│   │   │           ├── service                                 # Package for service classes
+
+│   │   │           │   ├── UserService.java                   # Business logic for users
+
+│   │   │           │   └── BookService.java                   # Business logic for books
+
+│   │   │           ├── repository                              # Package for repository interfaces
+
+│   │   │           │   ├── UserRepository.java                # Repository for User entity
+
+│   │   │           │   └── BookRepository.java                # Repository for Book entity
+
+│   │   │           ├── model                                   # Package for entity classes
+
+│   │   │           │   ├── User.java                           # User entity
+
+│   │   │           │   ├── Book.java                           # Book entity
+
+│   │   │           │   └── Transaction.java                    # Transaction entity
+
+│   │   │           └── exception                               # Package for custom exceptions
+
+│   │   │               └── CustomException.java                # Custom exception classes
+
+│   │   └── resources
+
+│   │       ├── application.properties                          # Configuration for Spring Boot
+
+│   │       └── templates                                       # Thymeleaf or HTML templates (if used)
+
+└── pom.xml                                                    # Maven configuration file
